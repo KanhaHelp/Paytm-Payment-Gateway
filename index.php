@@ -7,15 +7,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Merchant Check Out Page</title>
-<meta name="GENERATOR" content="Evrsoft First Page">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Paytm Payment Gateway</title>
+
 </head>
 <body>
-	<h1>Merchant Check Out Page</h1>
+	<h1 class="text-center">Paytm Payment Gateway</h1>
 	<pre>
 	</pre>
 	<form method="post" action="redirect.php">
-		<table border="1">
+
+
+		<table  class="table table-striped table-hover">
 			<tbody>
 				<tr>
 					<th>S.No</th>
@@ -55,14 +60,30 @@
 						value="1">
 					</td>
 				</tr>
+                <tr>
+					<td>6</td>
+					<td><label>Mobile*</label></td>
+					<td><input title="MOBILE" tabindex="10"
+						type="text" name="MOBILE"
+						value="6370223969">
+					</td>
+				</tr>
+                <tr>
+					<td>7</td>
+					<td><label>EMAIL*</label></td>
+					<td><input title="EMAIL" tabindex="10"
+						type="email" name="EMAIL"
+						value="djkanha044@gmail.com">
+					</td>
+				</tr>
 				<tr>
 					<td></td>
 					<td></td>
-					<td><input value="CheckOut" type="submit"	onclick=""></td>
+					<td><input value="CheckOut" type="submit" class="btn btn-primary"	onclick=""></td>
 				</tr>
 			</tbody>
 		</table>
-		* - Mandatory Fields
+	
 	</form>
 </body>
 </html>
