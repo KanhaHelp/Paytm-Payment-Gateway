@@ -5,7 +5,7 @@
 
 	// following files need to be included
 	require_once("./lib/paytm_config.php");
-	require_once("./lib/encdec_paytm.php");
+	require_once("./lib/paytm_api.php");
 
 	$ORDER_ID = "";
 	$requestParamList = array();
